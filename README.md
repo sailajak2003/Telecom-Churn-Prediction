@@ -36,11 +36,11 @@ Dummies: 'contract','paymentmethod','internetservice'
 Binaries: 'gender''phoneservice','partner','dependents','paperlessbilling','churn', multiplelines
 
 
-**One-Hot-Encoding**: We use one-hot-encoding on a few columns to convert Yes/No to 1/0.
+**One-Hot-Encoding**: I used one-hot-encoding on a few columns to convert Yes/No to 1/0.
 
 **Binning**   : Tenure column needs to be re-engineered as bins
 
-**Scaling**   : We use Scikit-learn Standard Scaler to scale the results on columns like monthly, total charges etc.
+**Scaling**   : I used Scikit-learn Standard Scaler to scale the results on columns like monthly, total charges etc.
 
 #### 3. Modelling
            
