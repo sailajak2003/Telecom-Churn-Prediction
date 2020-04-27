@@ -18,8 +18,15 @@ We are using IBM samples data from Kaggle.
 This data has  17000 rows and 23 columns. Other than "Churn" our target column
 we look at the rest of the columns and did some exploratory analysis in the first part.
 We used seaborn’s **countplot** to look at various columns impact on Churn
-          
-           
+![Image description](https://github.com/sailajakarra/Telecom-Churn/blob/master/images/Unknown.png)
+##### Total Churns per month is about 26.53%
+![Image description](https://github.com/sailajakarra/Telecom-Churn/blob/master/images/Unknown%201.png)
+##### This graph shows churn in senior citizens and they are less likely to churn.
+![Image description](https://github.com/sailajakarra/Telecom-Churn/blob/master/images/Unknown%203.png)
+##### This plot shows churn by contract type and as expected churn is very low for customers with one and two year contacts
+![Image description](https://github.com/sailajakarra/Telecom-Churn/blob/master/images/Unknown%204.png)
+##### This shows churn after binning tenure longer the tenure lesser the churn.
+
 #### 2. Feature Engineering 
  
 Here we look at the factors and do some factor engineering steps
